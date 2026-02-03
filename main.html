@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <form id="myForm" autocomplete="off" novalidate>
+        <h1>Login</h1>
+        <div class="fname">
+            <i class="fa fa-user" style="font-size:24px"></i>
+            <input type="text" id="fname" name="fname" placeholder="first name">
+        </div>
+        <div class="password">
+            <i class="fa fa-lock" style="font-size:25px"></i>
+            <input type="password" id="pword" name="pword" placeholder="password">
+        </div>
+        <div class="email">
+            <i class="fa fa-envelope" style="font-size:19px"></i>
+            <input type="email" id="email" name="email" placeholder="email">
+        </div>
+        <p id="forget">Forget your <a href="#">Password</a>?</p>
+        <button type="button" onclick="location.href='login.html'">Login</button>
+    </form>
+</body>
+</html>
